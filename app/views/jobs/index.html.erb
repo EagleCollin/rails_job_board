@@ -1,0 +1,9 @@
+<ul>
+<%= @jobs_list.each do |job|  %>
+    <li>
+        <%= job[:company] %>
+        <%= job[:position] %>
+        <%= job[:location] %>
+    </li>
+<% end %>
+</ul>
